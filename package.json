@@ -1,0 +1,32 @@
+{
+  "name": "worko-backend",
+  "version": "1.0.0",
+  "description": "backend assignment from worko to perform certain operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshupatel457/worko-backend.git"
+  },
+  "author": "Himanshu Patel",
+  "license": "ISC",
+  "homepage": "https://github.com/himanshupatel457/worko-backend#readme",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
