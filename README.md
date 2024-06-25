@@ -10,16 +10,18 @@ This is a backend assignment which inlcude RESTful APIs.This project sets up a r
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
+<!-- - [Usage](#usage)
 - [Testing](#testing)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#license) -->
 
 ## Introduction
 
 Node.js: Utilize Node.js for backend development.
 MVC Architecture: Implement a structured approach dividing the application into Model, View, and Controller layers.
 Layers:
+
+Implemented Basic Auth : Basic auth is also enabled in order to ask for username and password by browser every time a request is recieved to server 
 
 Controller Layer: Handles incoming requests and delegates business logic to the service layer.
 
@@ -79,6 +81,7 @@ Test Coverage: Achieve at least 60% test coverage to ensure reliability and func
 - dotenv
 - basic-auth
 - mongoose
+- nodemon (dev dependency to restart server)
 
 ## Setup Instructions
 
@@ -89,6 +92,13 @@ Ensure you have the following installed on your machine:
 - ```bash
     npm install
     ```
+- To run the server use 
+    ``` 
+    nodemon server.js
+    OR 
+    node server.js
+    ```
+
 - urls : 
     1. to get user List
     ``` 
@@ -151,7 +161,20 @@ DEL_ID = '667a60dda3ba9fe06534c11a'
 Use Post Man to make request at the URL's
 
 
+### SCREEN SHOTS OF SUCCESSFULL API ENDPOINTS
 
+### GET request
+![Application Screenshot](images/get.png)
+### POST request
+![Application Screenshot](images/post.png)
+### PUT request
+![Application Screenshot](images/put.png)
+### PATCH request
+![Application Screenshot](images/patch.png)
+### DELETE request
+![Application Screenshot](images/delete.png)
+### BASIC-AUTH request
+![Application Screenshot](images/basic-auth.png)
 
 
 
